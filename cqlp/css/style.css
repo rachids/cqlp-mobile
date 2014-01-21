@@ -1,0 +1,29 @@
+body{
+	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+	background:#337E8D;
+	color: #fff;
+}
+
+.header{
+	position:absolute;
+	left:0;top:0;right:0;
+	background:#372146;
+	text-align: center;
+	height:60px;
+}
+
+.main{
+	position:absolute;
+	left:0;right:0;top:60px;bottom:60px;
+	padding:0 25px;
+}
+
+.footer{
+	position:absolute;
+	left:0;right:0;bottom:0;
+	background: #E2D5B6;
+	height:60px;
+	line-height: 60px;
+	color:#000;
+}
+
