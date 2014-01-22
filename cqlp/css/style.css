@@ -23,7 +23,41 @@ body{
 	left:0;right:0;bottom:0;
 	background: #E2D5B6;
 	height:60px;
-	line-height: 60px;
 	color:#000;
 }
 
+.footer p{
+	bottom: 0;
+    display: inline-block;
+    left: 0;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 0;
+}
+
+.footer p i{
+    text-align: center;
+    width: 40%;
+    height:100%;
+}
+
+.waitscreen{
+	position:absolute;
+	top:0;bottom:0;left:0;right:0;
+	background:red;
+	opacity:0.6;
+}
+
+.waitscreen img{
+	text-align: center;
+    width: 40%;
+}
+
+.show {
+	display:block;
+}
+
+.hide {
+	display:none;
+}
